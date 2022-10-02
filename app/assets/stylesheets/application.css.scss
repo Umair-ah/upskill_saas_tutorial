@@ -20,13 +20,30 @@
  
  
 h1, h2, h3{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif
 }
 
-body{
+.nav, .home-callout{
     background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
 }
 
+.home-callout{
+    color:white;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.outer-navbar-sides{
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+}
+
+.nav{
+    border-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 100px black;
+}

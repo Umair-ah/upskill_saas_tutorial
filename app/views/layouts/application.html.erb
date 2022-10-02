@@ -9,17 +9,19 @@
   </head>
 
   <body>
-    <div class='container'>
-      <ul class="nav nav-tabs">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
+    <div class = "outer-navbar-sides">
+      <div class='container'>
+        <ul class=" nav nav-tabs">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </div>
     </div>
     
     
     
-    <div class='container'>
-      <%= yield %>
-    </div>
+
+    <%= yield %>
+
   </body>
 </html>
