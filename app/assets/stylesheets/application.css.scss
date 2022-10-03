@@ -43,7 +43,18 @@ h1, h2, h3{
 }
 
 .nav{
-    border-bottom: 20px;
+
+    background:transparent;
+
+}
+
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
     border-radius: 20px;
-    box-shadow: 1px 1px 100px black;
+    opacity: 0.35;
 }
