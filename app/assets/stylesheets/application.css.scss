@@ -18,10 +18,11 @@
  @import 'bootstrap';
  
  
- 
+// Main Headers
 h1, h2, h3{
     font-family: 'Open Sans', sans-serif
 }
+
 
 .nav, .home-callout{
     background: #7F7FD5;  /* fallback for old browsers */
@@ -29,6 +30,7 @@ h1, h2, h3{
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+// Header Text saying "Welcome to DevMatch.....entrepreneurs can meet devs"
 .home-callout{
     color:white;
     margin-top: 0px;
@@ -36,25 +38,25 @@ h1, h2, h3{
     padding-bottom: 50px;
 }
 
+// Navbar Color(div)
 .outer-navbar-sides{
-    background: #7F7FD5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 }
 
+// making the nav color blend with the bg Navbar Color(div)
 .nav{
 
     background:transparent;
 
 }
 
-.nav-tabs > li > a:hover {
-    border-color: transparent;
-}
 
+// cursor hover
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
     background-color: transparent;
     border-radius: 20px;
     opacity: 0.35;
+    border-color: transparent;
 }
